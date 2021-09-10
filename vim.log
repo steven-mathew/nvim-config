@@ -1,0 +1,350 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.007  000.007: --- VIM STARTING ---
+000.112  000.105: Allocated generic buffers
+000.894  000.782: locale set
+000.903  000.009: window checked
+001.473  000.570: inits 1
+001.479  000.006: parsing arguments
+001.481  000.002: expanding arguments
+001.501  000.020: shell init
+002.032  000.531: Termcap init
+002.058  000.026: inits 2
+002.209  000.151: init highlight
+003.297  000.312  000.312: sourcing $VIM/vimrc
+004.439  000.179  000.179: sourcing $VIMRUNTIME/defaults.vim
+004.452  001.752: sourcing vimrc file(s)
+006.430  000.170  000.170: sourcing /usr/share/vim/vim80/plugin/getscriptPlugin.vim
+006.889  000.329  000.329: sourcing /usr/share/vim/vim80/plugin/gzip.vim
+007.557  000.540  000.540: sourcing /usr/share/vim/vim80/plugin/logiPat.vim
+007.753  000.060  000.060: sourcing /usr/share/vim/vim80/plugin/manpager.vim
+008.342  000.465  000.465: sourcing /usr/share/vim/vim80/plugin/matchparen.vim
+009.836  001.262  001.262: sourcing /usr/share/vim/vim80/plugin/netrwPlugin.vim
+010.425  000.136  000.136: sourcing /usr/share/vim/vim80/plugin/rrhelper.vim
+010.645  000.091  000.091: sourcing /usr/share/vim/vim80/plugin/spellfile.vim
+010.987  000.241  000.241: sourcing /usr/share/vim/vim80/plugin/tarPlugin.vim
+011.979  000.870  000.870: sourcing /usr/share/vim/vim80/plugin/tohtml.vim
+012.404  000.229  000.229: sourcing /usr/share/vim/vim80/plugin/vimballPlugin.vim
+012.700  000.202  000.202: sourcing /usr/share/vim/vim80/plugin/zipPlugin.vim
+012.711  003.664: loading plugins
+012.811  000.100: loading packages
+012.836  000.025: loading after plugins
+012.848  000.012: inits 3
+013.789  000.941: reading viminfo
+013.820  000.031: setting raw mode
+013.833  000.013: start termcap
+013.844  000.011: clearing screen
+015.914  002.070: opening buffers
+015.968  000.054: BufEnter autocommands
+015.971  000.003: editing files in windows
+016.143  000.172: VimEnter autocommands
+016.145  000.002: before starting main loop
+017.466  001.321: first screen update
+017.468  000.002: --- VIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.045  000.045: --- NVIM STARTING ---
+004.585  004.540: locale set
+005.396  000.811: inits 1
+005.496  000.100: window checked
+012.203  006.707: parsing arguments
+012.704  000.500: expanding arguments
+012.846  000.143: inits 2
+013.985  001.139: init highlight
+014.089  000.104: init default mappings
+014.098  000.009: waiting for UI
+019.394  005.297: done waiting for UI
+019.416  000.022: initialized screen early for UI
+020.950  000.508  000.508: sourcing /Users/steven/.config/nvim/general/functions.vim
+021.317  000.268  000.268: sourcing /Users/steven/.config/nvim/general/settings.vim
+022.197  000.794  000.794: sourcing /Users/steven/.config/nvim/keys/mappings.vim
+022.714  000.404  000.404: sourcing /Users/steven/.config/nvim/plug-config/airline.vim
+023.303  000.389  000.389: sourcing /Users/steven/.config/nvim/plug-config/floaterm.vim
+024.036  000.565  000.565: sourcing /Users/steven/.config/nvim/plug-config/fzf.vim
+024.215  000.015  000.015: sourcing /Users/steven/.config/nvim/plug-config/signify.vim
+030.293  005.057  005.057: sourcing /Users/steven/.config/nvim/autoload/plug.vim
+046.309  000.324  000.324: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/elixir.vim
+046.786  000.384  000.384: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/fish.vim
+047.558  000.520  000.520: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/gdresource.vim
+048.424  000.532  000.532: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/gdscript.vim
+049.118  000.454  000.454: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/gomod.vim
+049.681  000.431  000.431: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/graphql.vim
+050.253  000.443  000.443: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/hcl.vim
+051.910  001.429  001.429: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/heex.vim
+053.340  000.800  000.800: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/json5.vim
+054.590  000.501  000.501: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/julia.vim
+055.193  000.314  000.314: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/ledger.vim
+055.527  000.239  000.239: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/nix.vim
+055.805  000.199  000.199: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/ql.vim
+056.094  000.210  000.210: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/query.vim
+056.621  000.450  000.450: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/surface.vim
+056.970  000.235  000.235: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/teal.vim
+057.253  000.195  000.195: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/tlaplus.vim
+057.545  000.204  000.204: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/yang.vim
+057.826  000.189  000.189: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/ftdetect/zig.vim
+058.850  000.314  000.314: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-fugitive/ftdetect/fugitive.vim
+060.331  000.456  000.456: sourcing /Users/steven/.config/nvim/autoload/plugged/typescript-vim/ftdetect/typescript.vim
+061.543  000.405  000.405: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-jsx-typescript/ftdetect/typescript.vim
+062.682  000.384  000.384: sourcing /Users/steven/.config/nvim/autoload/plugged/rust.vim/ftdetect/rust.vim
+064.565  029.063  019.450: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/filetype.vim
+065.595  000.571  000.571: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/ftplugin.vim
+067.080  001.007  001.007: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/indent.vim
+069.029  000.510  000.510: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+069.172  001.569  001.059: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+070.576  001.170  001.170: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/nosyntax.vim
+070.938  000.119  000.119: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+071.048  001.731  000.442: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+081.701  010.428  010.428: sourcing /Users/steven/.config/nvim/autoload/plugged/base16-vim/colors/base16-default-dark.vim
+091.280  009.445  009.445: sourcing /Users/steven/.config/nvim/autoload/plugged/base16-vim/colors/base16-default-dark.vim
+091.326  067.033  008.162: sourcing /Users/steven/.config/nvim/vim-plug/plugins.vim
+092.484  000.458  000.458: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/nosyntax.vim
+092.819  000.121  000.121: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+092.913  000.972  000.393: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+093.088  073.050  002.102: sourcing /Users/steven/.config/nvim/init.vim
+093.100  000.633: sourcing vimrc file(s)
+121.577  027.644  027.644: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-treesitter/plugin/nvim-treesitter.vim
+123.698  001.296  001.296: sourcing /Users/steven/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+125.464  001.103  001.103: sourcing /Users/steven/.config/nvim/autoload/plugged/quick-scope/plugin/quick_scope.vim
+126.511  000.452  000.452: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-commentary/plugin/commentary.vim
+128.571  001.445  001.445: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-closetag/plugin/closetag.vim
+131.238  001.885  001.885: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-surround/plugin/surround.vim
+134.199  001.371  001.371: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+137.376  002.057  002.057: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+138.469  000.925  000.925: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+139.073  000.414  000.414: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+140.261  001.054  001.054: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+141.646  001.194  001.194: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+142.911  001.081  001.081: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+144.801  001.702  001.702: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+146.021  001.039  001.039: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+147.370  001.161  001.161: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+148.135  000.582  000.582: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+149.445  001.120  001.120: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+151.225  001.593  001.593: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+151.816  000.404  000.404: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+152.596  000.580  000.580: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+154.718  001.690  001.690: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+158.896  000.614  000.614: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+161.786  001.190  001.190: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/autoload/provider/clipboard.vim
+162.990  003.931  002.741: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+163.652  000.543  000.543: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+165.828  001.091  001.091: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+166.352  034.333  010.186: sourcing /Users/steven/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+169.521  001.964  001.964: sourcing /Users/steven/opt/fzf/plugin/fzf.vim
+172.137  001.772  001.772: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf.vim/plugin/fzf.vim
+174.632  001.741  001.741: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/plugin/fzf_preview.vim
+176.114  000.604  000.604: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-signify/plugin/signify.vim
+179.602  003.246  003.246: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-fugitive/plugin/fugitive.vim
+181.216  000.708  000.708: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-rhubarb/plugin/rhubarb.vim
+183.829  001.641  001.641: sourcing /Users/steven/.config/nvim/autoload/plugged/gv.vim/plugin/gv.vim
+185.182  000.399  000.399: sourcing /Users/steven/.config/nvim/autoload/plugged/nvim-web-devicons/plugin/nvim-web-devicons.vim
+189.586  004.166  004.166: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+191.242  000.747  000.747: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-startify/plugin/startify.vim
+192.280  000.388  000.388: sourcing /Users/steven/.config/nvim/autoload/plugged/rust.vim/plugin/cargo.vim
+192.824  000.420  000.420: sourcing /Users/steven/.config/nvim/autoload/plugged/rust.vim/plugin/rust.vim
+194.276  000.584  000.584: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/plugin/lightline.vim
+196.378  000.823  000.823: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/gzip.vim
+196.875  000.374  000.374: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/health.vim
+197.465  000.464  000.464: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/man.vim
+200.775  000.871  000.871: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+201.027  003.438  002.567: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/matchit.vim
+202.178  001.062  001.062: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/matchparen.vim
+203.943  001.641  001.641: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/netrwPlugin.vim
+204.794  000.707  000.707: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/rplugin.vim
+205.606  000.689  000.689: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/shada.vim
+206.138  000.405  000.405: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/spellfile.vim
+206.926  000.661  000.661: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tarPlugin.vim
+208.164  001.108  001.108: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tohtml.vim
+208.664  000.362  000.362: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tutor.vim
+209.591  000.775  000.775: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/zipPlugin.vim
+210.959  000.434  000.434: sourcing /usr/local/opt/fzf/plugin/fzf.vim
+214.485  021.904: loading plugins
+214.642  000.157: loading packages
+214.976  000.334: loading after plugins
+214.994  000.018: inits 3
+217.933  002.939: reading ShaDa
+218.089  000.156: opening buffers
+220.635  001.146  001.146: sourcing /Users/steven/.config/nvim/autoload/plugged/quick-scope/autoload/quick_scope.vim
+223.201  002.167  002.167: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline.vim
+224.787  000.744  000.744: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/tab.vim
+228.538  001.139  001.139: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+231.016  004.858  003.719: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+231.030  005.833  000.975: sourcing /Users/steven/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+234.592  006.613: BufEnter autocommands
+234.597  000.005: editing files in windows
+241.814  003.121  003.121: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/fzf_preview.vim
+243.344  001.110  001.110: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/Async/Promise.vim
+244.059  000.337  000.337: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview.vim
+244.998  000.436  000.436: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/Async/Later.vim
+246.850  000.751  000.751: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/RPC/JSON.vim
+248.012  000.536  000.536: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/System/Job.vim
+248.930  000.412  000.412: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/Event/Emitter.vim
+249.332  003.769  002.071: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/fzf_preview/rpc/server.vim
+249.521  013.970  005.197: sourcing /Users/steven/.config/nvim/autoload/plugged/fzf-preview.vim/autoload/fzf_preview/rpc.vim
+275.469  022.480  022.480: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-startify/autoload/startify.vim
+279.479  001.531  001.531: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-startify/autoload/startify/fortune.vim
+304.076  000.925  000.925: sourcing /Users/steven/.config/nvim/autoload/plugged/vim-startify/syntax/startify.vim
+308.159  034.657: VimEnter autocommands
+308.168  000.009: UIEnter autocommands
+308.171  000.003: before starting main loop
+311.028  002.858: first screen update
+311.033  000.004: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.050  000.050: --- NVIM STARTING ---
+003.770  003.720: locale set
+019.065  015.294: inits 1
+019.113  000.049: window checked
+026.829  007.715: parsing arguments
+027.367  000.538: expanding arguments
+027.477  000.110: inits 2
+028.311  000.833: init highlight
+028.359  000.049: init default mappings
+028.362  000.002: waiting for UI
+033.385  005.024: done waiting for UI
+033.422  000.036: initialized screen early for UI
+034.866  000.540  000.540: sourcing /Users/steven/.config/nvim/general/functions.vim
+035.413  000.332  000.332: sourcing /Users/steven/.config/nvim/general/settings.vim
+036.062  000.573  000.573: sourcing /Users/steven/.config/nvim/keys/mappings.vim
+036.868  000.435  000.435: sourcing /Users/steven/.config/nvim/plug-config/airline.vim
+037.207  000.252  000.252: sourcing /Users/steven/.config/nvim/plug-config/floaterm.vim
+037.780  000.473  000.473: sourcing /Users/steven/.config/nvim/plug-config/fzf.vim
+037.976  000.031  000.031: sourcing /Users/steven/.config/nvim/plug-config/signify.vim
+043.554  004.236  004.236: sourcing /Users/steven/.config/nvim/autoload/plug.vim
+070.462  000.294  000.294: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/elixir.vim
+070.819  000.243  000.243: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/fish.vim
+071.139  000.249  000.249: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/gdresource.vim
+071.488  000.277  000.277: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/gdscript.vim
+071.852  000.261  000.261: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/gomod.vim
+072.180  000.257  000.257: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/graphql.vim
+072.503  000.247  000.247: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/hcl.vim
+072.851  000.272  000.272: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/heex.vim
+073.180  000.255  000.255: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/json5.vim
+073.550  000.290  000.290: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/julia.vim
+073.987  000.308  000.308: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/ledger.vim
+074.462  000.341  000.341: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/nix.vim
+074.929  000.331  000.331: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/ql.vim
+075.433  000.375  000.375: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/query.vim
+075.869  000.302  000.302: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/surface.vim
+076.259  000.302  000.302: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/teal.vim
+076.620  000.268  000.268: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/tlaplus.vim
+077.086  000.329  000.329: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/yang.vim
+077.550  000.332  000.332: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/ftdetect/zig.vim
+078.502  000.258  000.258: sourcing /Users/steven/.config/nvim/plugged/vim-fugitive/ftdetect/fugitive.vim
+079.112  000.317  000.317: sourcing /Users/steven/.config/nvim/plugged/typescript-vim/ftdetect/typescript.vim
+079.679  000.335  000.335: sourcing /Users/steven/.config/nvim/plugged/vim-jsx-typescript/ftdetect/typescript.vim
+080.413  000.347  000.347: sourcing /Users/steven/.config/nvim/plugged/rust.vim/ftdetect/rust.vim
+081.937  021.350  014.561: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/filetype.vim
+082.698  000.312  000.312: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/ftplugin.vim
+083.990  000.386  000.386: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/indent.vim
+085.488  000.501  000.501: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+085.623  001.252  000.750: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+087.030  000.769  000.769: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/nosyntax.vim
+087.410  000.138  000.138: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+087.518  001.377  000.470: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+102.001  014.130  014.130: sourcing /Users/steven/.config/nvim/plugged/base16-vim/colors/base16-gruvbox-dark-hard.vim
+102.111  063.961  020.919: sourcing /Users/steven/.config/nvim/vim-plug/plugins.vim
+106.195  003.221  003.221: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/nosyntax.vim
+107.050  000.353  000.353: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/synload.vim
+107.331  004.615  001.040: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/syntax/syntax.vim
+107.683  073.759  002.546: sourcing /Users/steven/.config/nvim/init.vim
+107.716  000.535: sourcing vimrc file(s)
+126.571  017.983  017.983: sourcing /Users/steven/.config/nvim/plugged/nvim-treesitter/plugin/nvim-treesitter.vim
+128.618  001.385  001.385: sourcing /Users/steven/.config/nvim/plugged/auto-pairs/plugin/auto-pairs.vim
+130.390  001.153  001.153: sourcing /Users/steven/.config/nvim/plugged/quick-scope/plugin/quick_scope.vim
+131.280  000.658  000.658: sourcing /Users/steven/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+133.106  001.171  001.171: sourcing /Users/steven/.config/nvim/plugged/vim-closetag/plugin/closetag.vim
+135.105  001.428  001.428: sourcing /Users/steven/.config/nvim/plugged/vim-surround/plugin/surround.vim
+137.019  001.063  001.063: sourcing /Users/steven/.config/nvim/plugged/NERDTree/autoload/nerdtree.vim
+139.433  001.598  001.598: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/path.vim
+140.300  000.697  000.697: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+140.966  000.497  000.497: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/menu_item.vim
+142.001  000.864  000.864: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/key_map.vim
+143.417  001.244  001.244: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/bookmark.vim
+144.457  000.867  000.867: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+146.254  001.627  001.627: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+147.294  000.871  000.871: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/opener.vim
+148.370  000.915  000.915: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/creator.vim
+148.852  000.322  000.322: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/flag_set.vim
+149.666  000.684  000.684: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+151.172  001.264  001.264: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/ui.vim
+151.654  000.293  000.293: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/event.vim
+152.074  000.301  000.301: sourcing /Users/steven/.config/nvim/plugged/NERDTree/lib/nerdtree/notifier.vim
+153.470  001.257  001.257: sourcing /Users/steven/.config/nvim/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+157.834  000.490  000.490: sourcing /Users/steven/.config/nvim/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+160.206  000.793  000.793: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/autoload/provider/clipboard.vim
+161.035  003.086  002.293: sourcing /Users/steven/.config/nvim/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+161.669  000.555  000.555: sourcing /Users/steven/.config/nvim/plugged/NERDTree/nerdtree_plugin/vcs.vim
+163.250  001.184  001.184: sourcing /Users/steven/.config/nvim/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+164.029  028.679  008.998: sourcing /Users/steven/.config/nvim/plugged/NERDTree/plugin/NERD_tree.vim
+166.205  002.001  002.001: sourcing /Users/steven/opt/fzf/plugin/fzf.vim
+168.845  002.049  002.049: sourcing /Users/steven/.config/nvim/plugged/fzf.vim/plugin/fzf.vim
+170.854  001.712  001.712: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/plugin/fzf_preview.vim
+172.007  000.650  000.650: sourcing /Users/steven/.config/nvim/plugged/vim-signify/plugin/signify.vim
+176.076  003.806  003.806: sourcing /Users/steven/.config/nvim/plugged/vim-fugitive/plugin/fugitive.vim
+176.859  000.573  000.573: sourcing /Users/steven/.config/nvim/plugged/vim-rhubarb/plugin/rhubarb.vim
+178.095  001.046  001.046: sourcing /Users/steven/.config/nvim/plugged/gv.vim/plugin/gv.vim
+178.566  000.270  000.270: sourcing /Users/steven/.config/nvim/plugged/nvim-web-devicons/plugin/nvim-web-devicons.vim
+182.522  003.446  003.446: sourcing /Users/steven/.config/nvim/plugged/vim-devicons/plugin/webdevicons.vim
+183.473  000.475  000.475: sourcing /Users/steven/.config/nvim/plugged/vim-startify/plugin/startify.vim
+184.077  000.366  000.366: sourcing /Users/steven/.config/nvim/plugged/rust.vim/plugin/cargo.vim
+184.449  000.281  000.281: sourcing /Users/steven/.config/nvim/plugged/rust.vim/plugin/rust.vim
+185.412  000.535  000.535: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/plugin/lightline.vim
+187.348  001.056  001.056: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/gzip.vim
+187.813  000.295  000.295: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/health.vim
+188.484  000.540  000.540: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/man.vim
+191.125  000.818  000.818: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+191.384  002.806  001.987: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/matchit.vim
+192.548  001.082  001.082: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/matchparen.vim
+194.440  001.757  001.757: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/netrwPlugin.vim
+195.241  000.649  000.649: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/rplugin.vim
+195.914  000.564  000.564: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/shada.vim
+196.345  000.287  000.287: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/spellfile.vim
+197.159  000.706  000.706: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tarPlugin.vim
+198.499  001.192  001.192: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tohtml.vim
+199.058  000.417  000.417: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/tutor.vim
+200.065  000.863  000.863: sourcing /usr/local/Cellar/neovim/HEAD-81f4de0/share/nvim/runtime/plugin/zipPlugin.vim
+200.719  000.343  000.343: sourcing /usr/local/opt/fzf/plugin/fzf.vim
+202.987  013.046: loading plugins
+203.141  000.154: loading packages
+203.422  000.280: loading after plugins
+203.434  000.013: inits 3
+205.353  001.918: reading ShaDa
+205.494  000.141: opening buffers
+208.371  001.497  001.497: sourcing /Users/steven/.config/nvim/plugged/quick-scope/autoload/quick_scope.vim
+211.478  002.721  002.721: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/autoload/lightline.vim
+212.762  000.476  000.476: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/autoload/lightline/tab.vim
+215.538  000.991  000.991: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+218.965  005.129  004.138: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+218.998  005.860  000.731: sourcing /Users/steven/.config/nvim/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+222.416  006.368: BufEnter autocommands
+222.422  000.006: editing files in windows
+224.894  001.221  001.221: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/fzf_preview.vim
+226.688  001.534  001.534: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/Async/Promise.vim
+227.509  000.408  000.408: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview.vim
+228.620  000.394  000.394: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/Async/Later.vim
+230.155  000.660  000.660: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/RPC/JSON.vim
+231.035  000.447  000.447: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/System/Job.vim
+231.714  000.345  000.345: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/vital/_fzf_preview/VS/Event/Emitter.vim
+231.971  002.957  001.506: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/fzf_preview/rpc/server.vim
+232.089  009.058  002.543: sourcing /Users/steven/.config/nvim/plugged/fzf-preview.vim/autoload/fzf_preview/rpc.vim
+238.306  002.084  002.084: sourcing /Users/steven/.config/nvim/plugged/vim-startify/autoload/startify.vim
+243.339  002.346  002.346: sourcing /Users/steven/.config/nvim/plugged/vim-startify/autoload/startify/fortune.vim
+276.809  000.489  000.489: sourcing /Users/steven/.config/nvim/plugged/vim-startify/syntax/startify.vim
+281.243  044.845: VimEnter autocommands
+281.254  000.011: UIEnter autocommands
+281.257  000.003: before starting main loop
+287.270  006.013: first screen update
+287.275  000.005: --- NVIM STARTED ---
