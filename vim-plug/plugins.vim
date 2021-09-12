@@ -9,6 +9,10 @@ call plug#begin()
   Plug 'pappasam/vim-filetype-formatter'
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
+  " post install (yarn install | npm install) then load plugin only for editing supported files
+  Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+
   Plug 'neovim/nvim-lspconfig'
   Plug 'hrsh7th/nvim-cmp'
   Plug 'hrsh7th/cmp-nvim-lsp'
@@ -236,6 +240,13 @@ let g:vim_filetype_formatter_commands = {
       \ }
 
 autocmd BufWritePre *.py FiletypeFormat 
+
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+let g:prettier#autoformat_config_present = 1
+let g:prettier#exec_cmd_async = 1
+
+
 
 
 
