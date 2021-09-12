@@ -1,5 +1,5 @@
 call plug#begin()
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
   Plug 'jiangmiao/auto-pairs'
   Plug 'unblevable/quick-scope'
   Plug 'tpope/vim-commentary'  
@@ -138,6 +138,28 @@ lua <<EOF
   })
 EOF
 
+lua << EOF
+local lspconfig = require'lspconfig'
+lspconfig.ccls.setup {
+  init_options = {
+    cache = {
+      directory = ".ccls-cache";
+    };
+  }
+}
+EOF
+
+function FormatBuffer()
+    if &modified
+        let cursor_pos = getpos('.')
+        :%!clang-format
+        call setpos('.', cursor_pos)
+    endif
+endfunction
+
+autocmd BufWritePre *.h,*.hpp,*.c,*.cpp,*.vert,*.frag :call FormatBuffer()
+
+
 " deal with colors
 if !has('gui_running')
   set t_Co=256
@@ -213,7 +235,7 @@ let g:vim_filetype_formatter_commands = {
       \ 'python': 'black -q - | isort -q - | docformatter -',
       \ }
 
-autocmd BufWritePost *.py FiletypeFormat 
+autocmd BufWritePre *.py FiletypeFormat 
 
 
 
